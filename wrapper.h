@@ -11,9 +11,9 @@
 #include <archive.h>
 #include <archive_entry.h>
 
-#define ARCHIVE_STATUS_EOF ((int) ARCHIVE_EOF)
-#define ARCHIVE_STATUS_OK ((int) ARCHIVE_OK)
-#define ARCHIVE_STATUS_RETRY ((int) ARCHIVE_RETRY)
-#define ARCHIVE_STATUS_WARN ((int) ARCHIVE_WARN)
-#define ARCHIVE_STATUS_FAILED ((int) ARCHIVE_FAILED)
-#define ARCHIVE_STATUS_FATAL ((int) ARCHIVE_FATAL)
+static const int ARCHIVE_STATUS_EOF = ARCHIVE_EOF;
+static const int ARCHIVE_STATUS_OK = ARCHIVE_OK;
+static const int ARCHIVE_STATUS_RETRY = ARCHIVE_RETRY;
+static const int ARCHIVE_STATUS_WARN = ARCHIVE_WARN;
+static const int ARCHIVE_STATUS_FAILED = ARCHIVE_FAILED;
+static const int ARCHIVE_STATUS_FATAL = ARCHIVE_FATAL;
